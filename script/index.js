@@ -6,27 +6,10 @@ let del = document.getElementById("del");
 function calculation(number) {
     //  display.value += number;
      if (number === '.' && display.value.includes('.')) {
-         return false
+         return true
      }
 
      display.value += number;
-
-    // let output = input.slice(-1)
-    // let operators = ["+", "-", "*", "/"]
-
-    // if (number == "." && output == ".") {
-    //     return false
-    // }
-    // if (operators.includes(number)) {
-    //     if (operators.includes(output)) {
-    //         return false
-    //     }
-
-    //     else {
-    //         return true
-    //     }
-    // }
-    // display.value += number;
 }
 
 
