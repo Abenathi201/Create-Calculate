@@ -8,9 +8,6 @@ function calculation(number) {
      if (number === '.' && display.value.includes('.')) {
          return false
      }
-     else if(number !== '.' && display.value) {
-        return true;
-     }
 
      display.value += number;
 
