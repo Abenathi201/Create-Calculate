@@ -1,0 +1,78 @@
+body {
+    width: 500px;
+    margin: 4% auto;
+    font-family: 'Arial', sans-serif;
+    font-size: 1.8rem;
+    background: rgba(0, 0, 0, 0.6);
+    /* box-shadow: inset 120px 100px 250px #000000, inset -120px -100px 250px #000000; */
+}
+  
+.calculator {
+    padding: 20px;
+    border-radius: 20px;
+    background-color: gray;
+}
+  
+.operators div {
+    display: inline-block;
+    background: darkslategray;
+    border-radius: 20px;
+    width: 80px;
+    text-align: center;
+    padding: 10px;
+    margin: 10px 4px 10px 0;
+    cursor: pointer;
+}
+
+#screen {
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+  
+.operators div:active {
+    font-weight: bold;
+}
+  
+.leftPanel {
+    display: inline-block;
+}
+  
+.numbers div {
+    display: inline-block;
+    background: #ddd;
+    border-radius: 20px;
+    width: 80px;
+    text-align: center;
+    padding: 10px;
+    margin: 10px 4px 10px 0;
+    cursor: pointer;
+}
+  
+.numbers div:active {
+    font-weight: bold;
+}
+  
+div.equal {
+    width: 100%;
+    border-radius: 20px;
+    background-color: #000;
+    text-align: center;
+    padding: 20px 10px;
+    color: whitesmoke;
+    cursor: progress;
+}
+  
+div.equal:active {
+    font-weight: bold;
+}
+
+@media only screen and (max-width: 600px) {
+    .body {
+        text-align: center;
+    }
+
+    .calculator {
+        width: 400px;
+        background: #000;
+    }
+}
